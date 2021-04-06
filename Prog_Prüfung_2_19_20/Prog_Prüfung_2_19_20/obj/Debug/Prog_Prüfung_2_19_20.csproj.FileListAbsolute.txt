@@ -1,0 +1,13 @@
+C:\Users\morit\source\repos\Prog_Prüfung_2_19_20\Prog_Prüfung_2_19_20\bin\Debug\Prog_Prüfung_2_19_20.exe.config
+C:\Users\morit\source\repos\Prog_Prüfung_2_19_20\Prog_Prüfung_2_19_20\bin\Debug\Prog_Prüfung_2_19_20.exe
+C:\Users\morit\source\repos\Prog_Prüfung_2_19_20\Prog_Prüfung_2_19_20\bin\Debug\Prog_Prüfung_2_19_20.pdb
+C:\Users\morit\source\repos\Prog_Prüfung_2_19_20\Prog_Prüfung_2_19_20\bin\Debug\EntityFramework.dll
+C:\Users\morit\source\repos\Prog_Prüfung_2_19_20\Prog_Prüfung_2_19_20\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\morit\source\repos\Prog_Prüfung_2_19_20\Prog_Prüfung_2_19_20\bin\Debug\EntityFramework.xml
+C:\Users\morit\source\repos\Prog_Prüfung_2_19_20\Prog_Prüfung_2_19_20\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\morit\source\repos\Prog_Prüfung_2_19_20\Prog_Prüfung_2_19_20\bin\Debug\de\EntityFramework.resources.dll
+C:\Users\morit\source\repos\Prog_Prüfung_2_19_20\Prog_Prüfung_2_19_20\obj\Debug\Prog_Prüfung_2_19_20.csprojAssemblyReference.cache
+C:\Users\morit\source\repos\Prog_Prüfung_2_19_20\Prog_Prüfung_2_19_20\obj\Debug\Prog_Prüfung_2_19_20.csproj.CoreCompileInputs.cache
+C:\Users\morit\source\repos\Prog_Prüfung_2_19_20\Prog_Prüfung_2_19_20\obj\Debug\Prog_Prüfung_2_19_20.csproj.CopyComplete
+C:\Users\morit\source\repos\Prog_Prüfung_2_19_20\Prog_Prüfung_2_19_20\obj\Debug\Prog_Prüfung_2_19_20.exe
+C:\Users\morit\source\repos\Prog_Prüfung_2_19_20\Prog_Prüfung_2_19_20\obj\Debug\Prog_Prüfung_2_19_20.pdb

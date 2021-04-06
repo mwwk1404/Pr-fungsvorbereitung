@@ -1,0 +1,49 @@
+﻿<Window x:Class="Aufgabe_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aufgabe_5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid x:Name="Maingrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Name:" Grid.Row="0" Grid.Column="0" />
+        <Label Content="Land:" Grid.Row="1" Grid.Column="0" />
+        <Label Content="Provinz:" Grid.Row="2" Grid.Column="0" />
+        <Label Content="Einwohner:" Grid.Row="3" Grid.Column="0" />
+        <Label Content="Breitengrad:" Grid.Row="4" Grid.Column="0" />
+        <Label Content="Längengrad:" Grid.Row="5" Grid.Column="0" />
+        <Label Content="{Binding Name}" Grid.Row="0" Grid.Column="1" />
+        <TextBox x:Name="Textbox_land" Grid.Row="1" Grid.Column="1" Text="{Binding Country}" />
+        <TextBox x:Name="Textbox_provinz" Grid.Row="2" Grid.Column="1" Text="{Binding Province}" />
+        <TextBox x:Name="Textbox_einwohner" Grid.Row="3" Grid.Column="1" Text="{Binding Population}" />
+        <TextBox x:Name="Textbox_breitengrad" Grid.Row="4" Grid.Column="1" Text="{Binding Latitude}" />
+        <TextBox x:Name="Textbox_Längengrad" Grid.Row="5" Grid.Column="1" Text="{Binding Longitude}" />
+        <Button x:Name="Vor" Content="Vor" Grid.Column="1" Grid.Row="6" Click="Vor_Click"/>
+        <Button x:Name="Zurück" Content="Zurück" Grid.Column="1" Grid.Row="7" Click="Zurück_Click"/>
+        <Button x:Name="speichern" Content="Änderung speichern" Grid.Column="1" Grid.Row="8" Click="speichern_Click"/>
+        <Label Content="Filter:" Grid.Row="9" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBox x:Name="Textbox_filter" Grid.Row="9" Grid.Column="1" Text="" TextChanged="Textbox_filter_TextChanged"/>
+        <Label Content="Datensätze" Grid.Row="10" Grid.Column="0"/>
+        <Label x:Name="Datensätze" Content="" Grid.Row="10" Grid.Column="1" HorizontalAlignment="Left"/>
+
+    </Grid>
+</Window>
